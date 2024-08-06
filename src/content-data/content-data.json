@@ -1,0 +1,358 @@
+{
+    "applicationDropDownOptions": [
+        { "name": "Best Start Grant & Best Start Foods", "value": "BSG" },
+        { "name": "Funeral Support Payment", "value": "FEA" },
+        { "name": "Job Start Payment", "value": "JG" },
+        { "name": "Scottish Child Payment", "value": "SCP" },
+        { "name": "Young Carer Grant", "value": "YCG" },
+        { "name": "Child Disability Payment", "value": "CDP" },
+        { "name": "Adult Disability Payment", "value": "ADP" },
+        { "name": "Winter Heating Payment", "value": "WHP"},
+        { "name": "Carer Support Payment", "value": "CSP"},
+        { "name": "Pension Age Disability Payment", "value": "PADP"}
+
+    ],
+    "changeInCircumstancesOptions": [
+        { "name": "Scottish Child Payment", "value": "SCP" },
+        { "name": "Best Start Foods", "value": "BSG" },
+        { "name": "Child Disability Payment", "value": "CDP" },
+        { "name": "Adult Disability Payment", "value": "ADP" },
+        { "name": "Carer Support Payment", "value": "CSP"},
+        { "name": "Pension Age Disability Payment", "value": "PADP"}
+    ],
+    "applicationCaseTransferOptions": [
+        { "name": "Child Disability Payment", "value": ["CDP"] },
+        { "name":  "Adult Disability Payment", "value":  ["ADP"]},
+        { "name":  "Working Age Disability Allowance", "value":  ["ADP", "WADLA"]},
+        { "name":  "Carer Support Payment", "value": "CSP"}
+    ],
+    "caseTransferBenefitTableValues": [
+        { "dwpName": "Disability Living Allowance for Children (DLA Child)", "sssName": "Child Disability Payment"},
+        { "dwpName": "Personal Independent Payment (PIP)", "sssName": "Adult Disability Payment"},
+        { "dwpName": "Disability Living Allowance for people of Working Age (WADLA)", "sssName": "Adult Disability Payment"},
+        { "dwpName": "Carer’s Allowance", "sssName": "Carer Support Payment"}
+    ],
+    "documentType": [
+        {
+            "name": "Birth certificate",
+            "value": "Birth certificate",
+            "benefit": ["BSG", "YCG", "SCP", "WHP" ]
+        },
+        {
+            "name": "Mat B1",
+            "value": "Mat B1",
+            "benefit": ["BSG","SCP"]
+        },
+        {
+            "name": "Court order (kinship care or guardianship)",
+            "value": "Court order",
+            "benefit": ["BSG"]
+        },
+        {
+            "name": "Driving license",
+            "value": "Driving license",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "WHP"]
+        },
+        {
+            "name": "Passport",
+            "value": "Passport",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "CDP", "ADP", "WHP", "WADLA", "CSP","PADP"]
+        },
+        {
+            "name": "Bank or building society document",
+            "value": "Bank or building society document",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "WHP"]
+        },
+        {
+            "name": "Benefit letter",
+            "value": "Benefit letter",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "WHP"]
+        },
+        {
+            "name": "Tax letter from HMRC",
+            "value": "Tax letter from HMRC",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "WHP"]
+        },
+        {
+            "name": "Official government letter",
+            "value": "Official government letter",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "WHP"]
+        },
+        {
+            "name": "Identity document",
+            "value": "Identity document",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "WHP"]
+        },
+        {
+            "name": "Tenancy agreement/mortgage statement",
+            "value": "Tenancy agreement/mortgage statement",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "WHP"]
+        },
+        {
+            "name": "Utility bill",
+            "value": "Utility bill",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "SCP", "ADP", "CDP", "WHP", "WADLA"]
+        },
+        {
+            "name": "Legal or court document",
+            "value": "Legal or court document",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP"]
+        },
+        {
+            "name": "Immigration or residence document",
+            "value": "Immigration or residence document",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "WHP"]
+        },
+        {
+            "name": "Appointee or PAB or CAB",
+            "value": "Appointee or PAB or CAB",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "CDP", "ADP", "WHP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Funeral bill",
+            "value": "Funeral bill",
+            "benefit": ["FEA"]
+        },
+        {
+            "name": "Travel bills/receipts",
+            "value": "Travel bills/receipts",
+            "benefit": ["FEA"]
+        },
+        {
+            "name": "Death certificate",
+            "value": "Death certificate",
+            "benefit": ["FEA"]
+        },
+        {
+            "name": "Still birth certificate",
+            "value": "Still birth certificate",
+            "benefit": ["FEA"]
+        },
+        {
+            "name": "Insurance policy documents",
+            "value": "Insurance policy documents",
+            "benefit":["FEA"]
+        },
+        {
+            "name": "Document with name and address of person who's died",
+            "value": "Document with name and address of person who's died",
+            "benefit":["FEA"]
+        },
+        {
+            "name": "Job offer",
+            "value": "Job offer",
+            "benefit": ["JG"]
+        },
+        {
+            "name": "Care leaver form",
+            "value": "Care leaver form",
+            "benefit": ["JG"]
+        },
+        {
+            "name": "Legal order document",
+            "value": "Legal order document",
+            "benefit": ["JG"]
+        },
+        {
+            "name": "Current Educational Maintenance Allowance (EMA) award letter",
+            "value": "EMA award letter",
+            "benefit": ["YCG"]
+        },
+        {
+            "name": "Current Student Awards Agency Scotland (SAAS) award letter",
+            "value": "Saas award letter",
+            "benefit": ["YCG"]
+        },
+        {
+            "name": "Valid Young Scot Card with PASS logo",
+            "value": "Valid Young Scot Card with PASS logo",
+            "benefit": ["YCG"]
+        },
+        {
+            "name": "Supporting Information Form",
+            "value": "Supporting Information Form",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Photo ID",
+            "value": "Photo ID",
+            "benefit": ["CDP", "ADP", "WADLA", "CSP", "PADP"]
+        },
+        {
+            "name": "Non-photo ID document",
+            "value": "Non-photo ID document",
+            "benefit": ["CDP", "ADP", "WADLA", "CSP", "PADP"]
+        },
+        {
+            "name": "Birth or pregnancy",
+            "value": "Birth or pregnancy",
+            "benefit": ["ADP", "CDP", "WADLA"]
+        },
+        {
+            "name": "Residency",
+            "value": "Residency",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Immigration or citizenship status",
+            "value": "Immigration or citizenship status",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Qualifying benefit",
+            "value": "Qualifying benefit",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Employment or tax",
+            "value": "Employment or tax",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Medical",
+            "value": "Medical",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Bank or financial institution",
+            "value": "Bank or financial institution",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Invoice or proof of purchase",
+            "value": "Invoice or proof of purchase",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Relationship status",
+            "value": "Relationship status",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "School or educational institution",
+            "value": "School or educational institution",
+            "benefit": ["CDP", "ADP", "WADLA"]
+        },
+        {
+            "name": "Parental responsibility or guardianship",
+            "value": "Parental responsibility or guardianship",
+            "benefit": ["CDP", "ADP", "WADLA"]
+        },
+        {
+            "name": "Change of circumstances",
+            "value": "Change of circumstances Form",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Custodial",
+            "value": "Custodial",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "Late application justification",
+            "value": "Late application justification",
+            "benefit": ["CDP", "ADP", "WADLA", "PADP"]
+        },
+        {
+            "name": "CT DM Disability Living Allowance Client Review Form",
+            "value": "CT DM Disability Living Allowance Client Review Form",
+            "benefit": ["WADLA"]
+        },
+        {
+            "name": "Final accounts or self assess tax return",
+            "value": "Final accounts or self assess tax return",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Payslips",
+            "value": "Payslips",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Monthly income and expenses",
+            "value": "Monthly income and expenses",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Private pension statements",
+            "value": "Private pension statements",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Work-related expenses",
+            "value": "Work-related expenses",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Childcare expenses",
+            "value": "Childcare expenses",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Caring expenses for a disabled person",
+            "value": "Caring expenses for a disabled person",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Other documents related to earnings",
+            "value": "Other documents related to earnings",
+            "benefit": ["CSP", "PADP"]
+        },
+        {
+            "name": "Evidence of Training Allowance",
+            "value": "Evidence of Training Allowance",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Evidence of UK immigration status",
+            "value": "Evidence of UK immigration status",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Evidence of where you live",
+            "value": "Evidence of where you live",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Evidence relating to deployment abroad",
+            "value": "Evidence relating to deployment abroad",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Evidence of absences from the Common Travel Area",
+            "value": "Evidence of absences from the Common Travel Area",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Evidence of employment or income tax payment",
+            "value": "Evidence of employment or income tax payment",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Evidence of receiving pensions or benefits",
+            "value": "Evidence of receiving pensions or benefits",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Evidence of a genuine and sufficient link to Scotland",
+            "value": "Evidence of a genuine and sufficient link to Scotland",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Proof of address for identity purposes",
+            "value": "Proof of address for identity purposes",
+            "benefit": ["CSP"]
+        },
+        {
+            "name": "Other",
+            "value": "Other",
+            "benefit": ["BSG", "FEA", "JG", "YCG", "SCP", "CDP", "ADP", "WHP", "WADLA"]
+        },
+        {
+            "name": "Other evidences",
+            "value": "Other evidences",
+            "benefit": ["CSP"]
+        }
+    ]
+
+}

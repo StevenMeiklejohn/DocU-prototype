@@ -10,6 +10,7 @@ import { useState } from "react";
 const MainContainer = () => {
 
     const [reasonForSending, setReasonForSending] = useState("")
+    const [newApplicationOption, setNewApplicationOption] = useState("")
     const [cicApplication, setCicApplication] = useState([])
     const [firstName, setFirstName] = useState("")
     const [lastName, setLastName] = useState("")
@@ -26,12 +27,21 @@ const MainContainer = () => {
         setReasonForSending(reason)
     }
 
+    const updateNewApplicationOption = (option) => {
+        setNewApplicationOption(option)
+    }
+
 
     return(
         <Routes>
             <Route path="/" element={<EvidenceSubmission />} />
-            <Route path="/reasonforsending" element={<ReasonForSending updateReasonForSending={updateReasonForSending}/>} />
-            <Route path="/application_info" element={<ApplicationInfo application={reasonForSending}/>} />
+            <Route path="/reasonforsending" 
+                element={<ReasonForSending 
+                updateReasonForSending={updateReasonForSending}/>} />
+            <Route path="/application_info" 
+                element={<ApplicationInfo 
+                application={reasonForSending}
+                updateNewApplicationOption={updateNewApplicationOption}/>} />
 
 
         </Routes>
