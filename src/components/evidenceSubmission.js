@@ -1,7 +1,10 @@
+import {useNavigate} from 'react-router-dom'
+
 const EvidenceSubmission = () => {
 
+    const navigate = useNavigate();
     const next = () => {
-        
+        navigate("/reasonforsending");
     }
 
     return (
@@ -52,7 +55,7 @@ const EvidenceSubmission = () => {
             </p>
 
             <div className="link-button-wrapper">
-                <button onClick={next()} role="button" title="next" aria-label="Next" className="button button--primary button-medium">
+                <button onClick={next} role="button" title="next" aria-label="Next" className="button button--primary button-medium">
                 <span className="link-text">Next</span>
                 <span className="iconButton-icon moveNext-button-icon"></span>
             </button>

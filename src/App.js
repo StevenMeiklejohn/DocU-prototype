@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import MainContainer from './containers/MainContainer';
+import {BrowserRouter as Router} from 'react-router-dom';
+
 
 function App() {
   return (
@@ -31,7 +32,9 @@ function App() {
         <div className="wrapper content-area">
           <div className="grid">
             <div className="grid__item large--eight-twelfths">
+              <Router>
               <MainContainer />
+              </Router>
             </div>
           </div>
         </div>
