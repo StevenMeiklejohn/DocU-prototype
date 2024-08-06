@@ -1,6 +1,6 @@
 import EvidenceSubmission from "../components/evidenceSubmission.js";
 import ReasonForSending from "../components/reasonForSending.js";
-import ApplicationInfo from "../components/applicationInfo.js";
+import ApplicationInfo from "../components/applicationInfo/applicationInfo.js";
 import {Route, Routes} from 'react-router-dom';
 import { useState } from "react";
 
