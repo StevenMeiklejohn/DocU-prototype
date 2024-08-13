@@ -1,4 +1,6 @@
 import content from "../../content-data/content-data.json";
+import { useNavigate } from 'react-router-dom';
+
 import { useState } from "react";
 
 const BenefitApplicationForm = ({ application, updateNewApplicationOption }) => {
@@ -13,6 +15,9 @@ const BenefitApplicationForm = ({ application, updateNewApplicationOption }) => 
         niNumber: ""
     })
 
+    const navigate = useNavigate();
+
+
     const onApplicationSelectOption = (e) => {
         let selectedOption = content.applicationDropDownOptions[e.target.value]
         updateNewApplicationOption(selectedOption)
@@ -23,8 +28,13 @@ const BenefitApplicationForm = ({ application, updateNewApplicationOption }) => 
         return <option key={index} value={index}>{appOption.name}</option>
     })
 
-    const goBack = () => {
+    const onSubmit = (data) => {
 
+        navigate("/application_info")
+    }
+
+    const goBack = () => {
+        navigate("/reasonforsending")
     }
 
     const handleSubmit = (event) => {
